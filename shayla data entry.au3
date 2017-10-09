@@ -15,7 +15,7 @@ Func MyExit()
    exit
 EndFunc
 
-Func TextForamt()
+Func TextForamt() ;not currently being used
    $str = ClipGet()
    $array = StringSplit($str, ' ', 2)
    For $i = 0 To UBound($array) - 1
